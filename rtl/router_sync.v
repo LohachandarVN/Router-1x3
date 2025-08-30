@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Lohachandar_V_N
 // 
 // Create Date: 18.08.2025 13:10:24
 // Design Name: 
@@ -65,7 +65,7 @@ module router_sync(
        else write_enb=3'b000;
      end
      
-     /*There are 3 internal reset signals (soft_reset_0, soft_reset_1, soft_reset_2)… goes high if read_enb_X
+     /*There are 3 internal reset signals (soft_reset_0, soft_reset_1, soft_reset_2)â€¦ goes high if read_enb_X
      is not asserted within 30 clock cycles of vld_out_X being asserted.*/
      
      //for 30 clock cycles we use 5 bit couter
